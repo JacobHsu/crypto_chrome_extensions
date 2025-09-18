@@ -6,18 +6,29 @@ document.addEventListener('DOMContentLoaded', function() {
   const websites = [
     'https://jacobhsu.github.io/crypto-watch/',
     'https://jacobhsu.github.io/crypto-watch/ma',
-    'https://github.com/JacobHsu/py-binance-api',
+    'https://jacobhsu.github.io/crypto-watch/ema',
     'https://jacobhsu.github.io/tradingview-widgets',
     'https://jacobhsu.github.io/altfins-widgets/ETH#15M',
     'https://crypto-tv-signal.lovable.app/',
     'https://crypto-weekly-calendar.lovable.app/',
     'https://jacobhsu.github.io/taapi/',
     'https://github.com/JacobHsu/py-coincodex-prediction',
+    'https://github.com/JacobHsu/py-binance-api',
   ];
   
   // 提交按鈕點擊事件
   submitBtn.addEventListener('click', function() {
     openCryptoSites();
+  });
+
+  // 為每個網站連結添加點擊事件
+  const siteLinks = document.querySelectorAll('.sites-list a');
+  siteLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      const url = this.getAttribute('data-url');
+      chrome.tabs.create({ url: url });
+    });
   });
   
   // 開啟虛擬幣網站

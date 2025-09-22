@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     'https://jacobhsu.github.io/taapi/',
     'https://github.com/JacobHsu/py-coincodex-prediction',
     'https://github.com/JacobHsu/py-binance-api',
+    'https://www.panewslab.com/zh-hant',
   ];
   
   // 提交按鈕點擊事件

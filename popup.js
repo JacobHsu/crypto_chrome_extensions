@@ -11,9 +11,11 @@ document.addEventListener('DOMContentLoaded', function() {
     'https://jacobhsu.github.io/altfins-widgets/ETH#15M',
     'https://crypto-tv-signal.lovable.app/',
     'https://crypto-weekly-calendar.lovable.app/',
+    "https://next-open-stock.vercel.app/crypto",
     'https://jacobhsu.github.io/taapi/',
     'https://github.com/JacobHsu/py-coincodex-prediction',
     'https://github.com/JacobHsu/py-binance-api',
+    "https://nof1.ai/",
     'https://www.panewslab.com/zh-hant',
   ];
   

@@ -13,9 +13,10 @@ document.addEventListener('DOMContentLoaded', function() {
     'https://crypto-weekly-calendar.lovable.app/',
     "https://next-open-stock.vercel.app/crypto",
     'https://jacobhsu.github.io/taapi/',
-    'https://github.com/JacobHsu/py-coincodex-prediction',
+    'https://www.pizzint.watch/',
     'https://github.com/JacobHsu/py-binance-api',
-    "https://nof1.ai/",
+    'https://www.investing.com/crypto/bitcoin/technical',
+    'https://www.investing.com/crypto/ethereum/technical',
     'https://www.panewslab.com/zh-hant',
   ];
   

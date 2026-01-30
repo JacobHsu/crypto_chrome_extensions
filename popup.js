@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
   // 虛擬幣網站列表
   const websites = [
     'https://jacobhsu.github.io/crypto-watch/',
-    'https://jacobhsu.github.io/crypto-watch/ma',
-    'https://jacobhsu.github.io/crypto-watch/ema',
+    'https://jacobhsu.github.io/crypto-watch/btc',
+    'https://jacobhsu.github.io/crypto-watch/eth',
     'https://jacobhsu.github.io/tradingview-widgets',
     'https://jacobhsu.github.io/altfins-widgets/ETH#15M',
     'https://crypto-tv-signal.lovable.app/',

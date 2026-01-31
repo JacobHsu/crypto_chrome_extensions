@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
     'https://jacobhsu.github.io/py-binance-api',
     'https://www.investing.com/crypto/bitcoin/technical',
     'https://www.investing.com/crypto/ethereum/technical',
+    'https://coincodex.com/crypto/bitcoin/price-prediction/',
     'https://www.panewslab.com/zh-hant',
   ];
 
